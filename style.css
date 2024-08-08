@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: lighter;
+    filter: invert(1);
+    mix-blend-mode: difference;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-weight: lighter;
+    filter: invert(1);
+    mix-blend-mode: difference;
+    font-style: italic;
+}
+
+.header {
+    width: max-content;
+    margin-left: 70px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background-color: rgba(0, 0, 255, 0.486);
+}
